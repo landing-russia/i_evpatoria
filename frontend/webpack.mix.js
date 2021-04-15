@@ -9,7 +9,8 @@ mix
   .options({
     // processCssUrls: false,
     postCss: [require("@tailwindcss/jit")],
-  });
+  })
+  .disableNotifications();
 
 // mix
 //   .js("src/js/app.js", "js")
