@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Exscursion
 
-# Register your models here.
+
+
+admin.site.register(Exscursion)
